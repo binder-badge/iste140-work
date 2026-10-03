@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Cascadia Code Nerd Font";
+    src: url("../files/CaskaydiaCoveNerdFontPropo-Regular.ttf") format('truetype');
+    /* portfolio/assets/files/CaskaydiaCoveNerdFontPropo-Regular.ttf */
+}
+body {
+    /* font-family: sans-serif; */
+    font-family: "Cascadia Code Nerd Font";
+    font-size: 20px;
+    background-color: rgb(9, 219, 234);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: Right;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1, h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.what-p, .reason-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 96px;
+}
+
+button {
+    /* font-family: monospace; */
+    font-family: "Cascadia Code Nerd Font";
+    font-size: 20px;
+}
+
+table{
+    width: 10%;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+th {
+    width: 10%;
+}
+
+#headshot {
+    width: 10%;
+    border-radius: 50%;
+    border: 5px solid black;
+    float: right;
+    margin-left: 5px;
+}

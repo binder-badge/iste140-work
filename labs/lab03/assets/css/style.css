@@ -1,0 +1,33 @@
+
+body {
+  background-color: lightblue;
+}
+#name {
+  color: rgb(4, 136, 29);
+  border: 2px solid rgb(21, 63, 141);
+  border-radius: 8px;
+}
+
+#email {
+  color: rgb(179, 6, 222);
+  border: 2px solid rgb(238, 0, 255);
+  border-radius: 8px;
+}
+
+#message {
+  color: rgb(7, 28, 214);
+  border: 2px solid rgb(255, 187, 0);
+  border-radius: 8px;
+}
+#message:focus {
+  background-color: rgb(105, 209, 57);
+  width: 100%;
+}
+input[type="submit"]{
+  background-color: rgb(48, 131, 10);
+  color: rgb(129, 221, 131);
+}
+
+.formLabels{
+  color: rgb(67, 46, 124);
+}

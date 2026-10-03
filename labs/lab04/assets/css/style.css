@@ -1,0 +1,31 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: burlywood;
+}
+
+h1 {
+    color: rgb(78, 20, 78);
+}
+p {
+    color: #034c70;
+}
+
+#div-list ol {
+    color: darkgreen;
+    line-height: 30px;
+}
+
+#div-list{
+  width: 150px;
+  border: 10px solid rgb(234, 3, 88);
+  padding: 5px;
+  margin: 10px;
+}
+#div-list:hover{
+  width: 150px;
+  border: 10px solid rgb(38, 3, 234);
+  padding: 5px;
+  margin: 10px;
+}
