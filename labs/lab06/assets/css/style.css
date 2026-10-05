@@ -10,19 +10,9 @@ body{
   justify-content: center;
   align-items: center;
 }
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: auto;
-  flex-direction: row;
 
-}
-.card-head{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.card-content{
+.row{
+  gap: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,6 +23,21 @@ body{
   width: 25%;
 }
 
-.row{
-  gap: 10;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: max-content;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.card-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
