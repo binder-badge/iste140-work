@@ -6,6 +6,7 @@ body{
 }
 
 .links-div {
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,13 +21,13 @@ body{
 .col{
   float: left;
   display: center;
-  width: 25%;
+  width: 20%;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: max-content;
+  width: 20%;
   flex-direction: row;
   padding-left: 10px;
   padding-right: 10px;
