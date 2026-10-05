@@ -5,6 +5,10 @@ body{
   gap: 40px;
 }
 
+a {
+  padding: 10px;
+}
+
 .links-div {
   padding: 20px;
   display: flex;
