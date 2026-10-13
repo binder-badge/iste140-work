@@ -3,54 +3,104 @@
     src: url("../files/CaskaydiaCoveNerdFontPropo-Regular.ttf") format('truetype');
     /* portfolio/assets/files/CaskaydiaCoveNerdFontPropo-Regular.ttf */
 }
+
+/*
+element selectors
+*/
+
 body {
     /* font-family: sans-serif; */
     font-family: "Cascadia Code Nerd Font";
     font-size: 20px;
-    background-color: rgb(9, 219, 234);
+    background-color: #3559E9;
+    color: white;
+    margin: 0px;    
 }
 
 header{
     display: flex;
     justify-content: center;
-    align-items: Right;
+    align-items: center;
 }
 
+p {
+    max-width: 1200px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 div{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* max-width: 1200px; */
 }
-h1, h2{
+h1, h2, h3{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+img {
+    width: 96px;
+}
+
+.skill-icon {
+    width: 48px;
+    fill: white;
+    
+}
+.skill-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* width: 1200px; */
+    max-width: 1200px;
+}
+.skill-div h3{
+    justify-self: left;
+    /* margin-left: 0px; */
+    
+}
+
+.skill-div ul{
+
+}
+.skill-div li{
+    display: inline;
+    vertical-align: middle;
+    font-size: 25px;
+    column-gap: 60px;
 }
 .what-p, .reason-p{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-img {
-    width: 96px;
+
+/*
+nav bar
+*/
+.top-navbar{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
-button {
-    /* font-family: monospace; */
-    font-family: "Cascadia Code Nerd Font";
-    font-size: 20px;
+.top-navbar a{
+    color:white;
 }
 
-table{
-    width: 10%;
-}
-
-th, td {
-    border: 1px solid black;
-}
-
-th {
-    width: 10%;
+.top-navbar .nav-right {
+    justify-content: right;
+    align-items: right;
+    column-gap: 30px;
 }
 
 #headshot {
