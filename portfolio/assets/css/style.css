@@ -108,9 +108,9 @@ Main page
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    width: 1200px;
-    /* max-width: 1200px; */
+    /* flex-wrap: wrap; */
+    /* width: 1200px; */
+    max-width: 1200px;
 }
 .skill-div h3{
     background-color: whitesmoke;
@@ -126,13 +126,15 @@ Main page
 }
 
 .skill-div ul{
-
+    
 }
 .skill-div li{
-    display: inline;
+    display: inline-flex;
     vertical-align: middle;
+    flex-wrap: wrap;
+    text-align: center;
     font-size: 25px;
-    column-gap: 60px;
+    column-gap: 30px;
     padding: 5px;
     border-style: solid;
     border-width: 5px;
