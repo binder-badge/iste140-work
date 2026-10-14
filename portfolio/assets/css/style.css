@@ -24,9 +24,9 @@ header{
     align-items: center;
 }
 
-p {
+/* p {
     max-width: 1200px;
-}
+} */
 footer {
     display: flex;
     justify-content: center;
@@ -73,8 +73,12 @@ nav bar
 /* 
 Main page
 */
+.intro {
+    margin: 0 auto;
+    width: 1200px;
+}
 #headshot {
-    width: 10%;
+    width: 20%;
     border-radius: 50%;
     border: 5px solid black;
     float: right;
@@ -86,12 +90,13 @@ Main page
     align-items: center;
     background-color: darkgreen;
     max-width: max-content;
-    padding: 5px;
+    margin: 0 auto;
+    padding: 20px;
     border-style: solid;
     border-width: 5px;
     border-radius: 5px;
     border-color: whitesmoke;
-
+    
 }
 .skill-icon {
     width: 48px;
@@ -99,12 +104,13 @@ Main page
     
 }
 .skill-div {
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    /* width: 1200px; */
-    max-width: 1200px;
+    width: 1200px;
+    /* max-width: 1200px; */
 }
 .skill-div h3{
     background-color: whitesmoke;
@@ -127,6 +133,7 @@ Main page
     vertical-align: middle;
     font-size: 25px;
     column-gap: 60px;
+    padding: 5px;
     border-style: solid;
     border-width: 5px;
     border-radius: 10px;
