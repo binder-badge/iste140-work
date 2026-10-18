@@ -24,9 +24,11 @@ header{
     align-items: center;
 }
 
-/* p {
+p {
+
     max-width: 1200px;
-} */
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -45,7 +47,7 @@ h1, h2, h3{
 }
 
 img {
-    width: 96px;
+    width: 64px;
 }
 
 /*
@@ -74,6 +76,9 @@ nav bar
 Main page
 */
 .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
     width: 1200px;
 }
@@ -105,6 +110,7 @@ Main page
 }
 .skill-div {
     margin: 0 auto;
+    /* row-gap: 20px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -131,7 +137,8 @@ Main page
 .skill-div li{
     display: inline-flex;
     vertical-align: middle;
-    flex-wrap: wrap;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
     text-align: center;
     font-size: 25px;
     column-gap: 30px;
