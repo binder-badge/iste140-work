@@ -5,11 +5,41 @@ body {
     display: grid;
     grid-template-areas:
     "header header"
-    "sidebar sidebar"
-    "menu content"
+    "sidebar content"
     "footer footer";
+    grid-template-columns: 2fr 2fr;
+    gap: 10px;
 }
+.big-boy div {
+    background-color: aquamarine;
+    padding: 5px;
+}
+.big-boy div.header {
+    grid-area: header;
+    text-align: center;
+}
+
+.big-boy div.sidebar {
+    grid-area: sidebar;
+}
+
+.big-boy div.content {
+    grid-area: content;
+    /* text-align: left; */
+}
+.big-boy div.footer {
+    grid-area: footer;
+    text-align: center;
+    
+}
+
 .gallery{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3,auto);
+    /* background-color: burlywood; */
+    gap: 20px;
+}
+.gallery div {
+    background-color: antiquewhite;
+    padding: 10px;
 }
