@@ -137,6 +137,7 @@ Main page
 }
 .skill-div li{
     display: inline-flex;
+    align-items: center;
     vertical-align: middle;
     position: relative;
     flex-direction: row;
